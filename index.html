@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+        <!-- 使用lib-flexible跟cssrem方案就得注释掉viewport，不然会不成功 -->
+        <!-- echarts上次用@media设置缩放调整grid的栏数不起作用，也就是说比如
+        @media screen and (max-width:300px)，他max-width:300px这个用不了，
+        宽度1000px就行，小了就不行，其实是因为我注释了viewport，不注释又影响到rem，所以我写成：
+        <meta name="viewport" content="width=device-width" /> -->
+        <meta name="viewport" content="width=device-width" />
+        <title>Vite + Vue</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

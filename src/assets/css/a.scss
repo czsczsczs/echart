@@ -1,0 +1,25 @@
+
+:root {
+	--bg-color: #10141d; //默认背景颜色
+}
+ 
+$bg-color: var(--bg-color); //默认背景颜色
+$blue:#3385ff !default;
+$blue-border:5px solid $blue;
+@mixin hunhe{
+    text-align: center;
+    font-size: 15px;
+    color: aquamarine;
+}
+@mixin txt($weight:normal){
+    @if ($weight==bold){
+        font-weight: bold;
+    }
+    @else if ($weight==light){
+        font-weight: 400;
+    }
+    @else{
+        font-weight: normal;
+    }
+
+}
